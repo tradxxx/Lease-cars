@@ -47,6 +47,10 @@ body{
 
 .header-main{
     background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
 }
 .header__inner{
     padding-top: 40px;
@@ -117,6 +121,10 @@ body{
     text-align: center;
     padding-top: 105px;
     padding-bottom: 50px;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
 }
 
 .title{
@@ -134,5 +142,12 @@ body{
     text-transform: uppercase;
     font-size: 36px;
     font-weight: 700;
+}
+
+.swiper-wrapper{
+    background: rgba(21, 21, 21,.3);
+}
+.swiper-slide{
+    height: 100vh;
 }
 
